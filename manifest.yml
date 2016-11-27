@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: pracAss12
+  host: pracAss12
+  disk_quota: 1024M
+  services:
+  - ClearDB MySQL Database-7t
+  buildpack: php_buildpack
